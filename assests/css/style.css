@@ -1,0 +1,130 @@
+:root {
+    --on-bg-color: rgb(0, 0, 0);
+    --two-bg-color: rgb(0, 121, 16);
+
+    /* mobile */
+    --margin-base: 10%;
+    --radius-body: 50px;
+
+    /* desktop */
+    --margin-base-d: 1%;
+    --radius-body-d: 30px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.body-container{
+    background-color: var(--two-bg-color);
+    width: 100%;
+    height: 100vh;
+}
+
+/* test */
+.testdata{/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    height: 300px;
+    width: 100%;
+    
+}
+/*  ====== */
+
+.container-on{
+    background-color: var(--two-bg-color);
+    width: 100%;
+    padding-right: var(--margin-base);
+    transition: 1s;
+}
+
+.container-on-in{
+    background-color: var(--on-bg-color);
+    padding: 10px 10px;
+    border-bottom-right-radius: var(--radius-body);
+    border-top-right-radius: var(--radius-body);
+    color: white;
+    transition: 1s;
+}
+
+/*  */
+.container-two{
+    background-color: var(--on-bg-color);
+    width: 100%;
+    padding-left:  var(--margin-base);
+    transition: 1s;
+}
+
+.container-two-in{
+    background-color: var(--two-bg-color);
+    padding: 10px 10px;
+    border-bottom-left-radius: var(--radius-body);
+    border-top-left-radius: var(--radius-body);
+    color: black;
+    transition: 1s;
+}
+
+/* ##################################################### 
+################### Desktop ############################
+#######################################################*/
+@media (min-width: 720px) { 
+
+    .container-on{
+        background-color: var(--two-bg-color);
+        width: 100%;
+        padding: 0 var(--margin-base-d);
+    }
+    
+    .container-on-in{
+        background-color: var(--on-bg-color);
+        padding: 10px 10px;
+        border-radius: var(--radius-body-d);
+        color: white;
+    }
+    
+    /*  */
+    .container-two{
+        background-color: var(--two-bg-color);
+        width: 100%;
+        padding: 0 var(--margin-base-d);
+    }
+    
+    .container-two-in{
+        background-color: var(--two-bg-color);
+        padding: 10px 10px;
+        border-radius: 0;
+        color: black;
+    }
+}
+
+/* ################################################################ */
+/* ################################################################ */
+/* ################################################################ */
+/* ################################################################ */
+
+.ct-carousel{
+    display: flex;
+    border-radius: 20px;
+    width: 300px;
+    justify-content: center;
+}
+
+.ct-carousel img{
+    border-radius: 20px;
+}
+
+.ct-bagdes{
+    background-color: var(--two-bg-color);
+    box-shadow: rgba(0, 0, 0, 0.212) 1px 1px 12px;
+}
+
+.ct-img-lois{
+    width: 100px;
+    height: 100px;
+}
