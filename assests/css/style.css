@@ -16,7 +16,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* cursor: url("../images/cursor.png"), auto; */
 }
+
+*:active{
+    /* cursor: url("../images/cursor_c.png"), auto; */
+}
+
 
 body{
     margin: 0;
@@ -107,6 +113,14 @@ body{
 /* ################################################################ */
 /* ################################################################ */
 /* ################################################################ */
+.ct-menu{
+    position: fixed;
+    top: 0px;
+}
+
+.ct-body-menu{
+    height: 42px;
+}
 
 .ct-carousel{
     display: flex;
