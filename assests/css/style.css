@@ -1,6 +1,11 @@
 :root {
-    --on-bg-color: rgb(0, 27, 0);
-    --two-bg-color: rgb(0, 121, 16);
+    /* light */
+    --on-bg-color: #4F5C8A;
+    --two-bg-color: #DBD3E6;
+
+    /* dark */
+    --on-bg-dark-color: #11141d;
+    --two-bg-dark-color: #4F5C8A;
 
     /* mobile */
     --margin-base: 10%;
@@ -52,6 +57,7 @@ body{
     border-top-right-radius: var(--radius-body);
     color: white;
     transition: 1s;
+    position: relative;
 }
 
 /*  */
@@ -69,6 +75,7 @@ body{
     border-top-left-radius: var(--radius-body);
     color: black;
     transition: 1s;
+    position: relative;
 }
 
 /* ##################################################### 
@@ -114,6 +121,10 @@ body{
     top: 0px;
 }
 
+nav div ul li a{
+    text-shadow: rgba(61, 61, 61, 0.493) 1px 1px 3px;
+}
+
 .ct-body-menu{
     height: 42px;
 }
@@ -134,11 +145,6 @@ body{
     box-shadow: rgba(0, 0, 0, 0.212) 1px 1px 12px;
 }
 
-.ct-img-lois{
-    width: 100px;
-    height: 100px;
-}
-
 .ct-contact{
     font-size: 30px;
 }
@@ -149,4 +155,37 @@ body{
 
 .ct-contact a:hover{
     color: #FFF;
+}
+
+/* switch dark mode */
+#ct-dakMod{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: cornsilk;
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.ct-a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.ct-b{
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
 }
