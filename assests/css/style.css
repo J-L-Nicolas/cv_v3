@@ -142,3 +142,11 @@ body{
 .ct-contact{
     font-size: 30px;
 }
+
+.ct-contact a{
+    color: var(--two-bg-color);
+}
+
+.ct-contact a:hover{
+    color: #FFF;
+}
