@@ -1,5 +1,5 @@
 :root {
-    --on-bg-color: rgb(0, 0, 0);
+    --on-bg-color: rgb(0, 27, 0);
     --two-bg-color: rgb(0, 121, 16);
 
     /* mobile */
@@ -27,21 +27,16 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: var(--two-bg-color);
 }
 
 .body-container{
     background-color: var(--two-bg-color);
     width: 100%;
     height: 100vh;
+    max-width: 1500px;
+    margin: auto;
 }
-
-/* test */
-.testdata{/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-    height: 300px;
-    width: 100%;
-    
-}
-/*  ====== */
 
 .container-on{
     background-color: var(--two-bg-color);
@@ -142,4 +137,8 @@ body{
 .ct-img-lois{
     width: 100px;
     height: 100px;
+}
+
+.ct-contact{
+    font-size: 30px;
 }
