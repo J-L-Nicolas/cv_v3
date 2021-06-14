@@ -107,6 +107,7 @@ body{
         border-radius: 0;
         color: black;
     }
+
 }
 
 /* ################################################################ */
@@ -125,8 +126,8 @@ body{
 .ct-carousel{
     display: flex;
     border-radius: 20px;
-    width: 300px;
     justify-content: center;
+    transition: 1s;
 }
 
 .ct-carousel img{
