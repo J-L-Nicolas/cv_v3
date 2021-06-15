@@ -1,11 +1,11 @@
 :root {
     /* light */
-    --on-bg-color: #559191;
-    --two-bg-color: #9ea4ce;
+    --on-bg-color: #4a385c;
+    --two-bg-color: #be9ccc;
 
     /* dark */
-    --on-bg-dark-color: #080813;
-    --two-bg-dark-color: #264747;
+    --on-bg-dark-color: #09032c;
+    --two-bg-dark-color: #4a385c;
 
     /* mobile */
     --margin-base: 10%;
@@ -33,6 +33,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: var(--two-bg-color);
+    transition: 1s;
 }
 
 .body-container{
@@ -210,4 +211,8 @@ nav div ul li a{
     
     font-family: "ROLLERGI";
     font-size: 40px;
+}
+
+.ct-colorAs{
+    color: var(--two-bg-color);
 }
