@@ -24,3 +24,7 @@ function switchDark(){
 
 }
 
+document.querySelector("#ct-dakMod").addEventListener("click",()=>{
+
+    switchDark();
+})

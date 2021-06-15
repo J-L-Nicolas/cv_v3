@@ -1,11 +1,11 @@
 :root {
     /* light */
-    --on-bg-color: #4F5C8A;
-    --two-bg-color: #DBD3E6;
+    --on-bg-color: #559191;
+    --two-bg-color: #9ea4ce;
 
     /* dark */
-    --on-bg-dark-color: #11141d;
-    --two-bg-dark-color: #4F5C8A;
+    --on-bg-dark-color: #080813;
+    --two-bg-dark-color: #264747;
 
     /* mobile */
     --margin-base: 10%;
@@ -188,4 +188,26 @@ nav div ul li a{
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     border: 2px solid black;
+}
+
+/* title fonts */
+@font-face {
+    font-family: "AbrilFatface";
+    src: url("../fonts/AbrilFatface-Regular.ttf");
+}
+.ct-title{
+    
+    font-family: "AbrilFatface";
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: "ROLLERGI";
+    src: url("../fonts/ROLLERGI.TTF");
+}
+
+.ct-MasterTitle{
+    
+    font-family: "ROLLERGI";
+    font-size: 40px;
 }
