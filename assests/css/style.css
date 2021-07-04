@@ -1,11 +1,11 @@
 :root {
     /* light */
-    --on-bg-color: #4a385c;
-    --two-bg-color: #be9ccc;
+    --on-bg-color: #0B83DE;
+    --two-bg-color: #0BDEC8;
 
     /* dark */
-    --on-bg-dark-color: #09032c;
-    --two-bg-dark-color: #4a385c;
+    --on-bg-dark-color: #0e272e;
+    --two-bg-dark-color: #1042b4;
 
     /* mobile */
     --margin-base: 10%;
